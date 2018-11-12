@@ -5,8 +5,7 @@ import os
 base = None 
 
 os.environ["TCL_LIBRARY"] = "C:\\python3.6\\tcl\\tcl8.6"
-os.environ["TK_LIBRARY"]
-= "C:\\python3.6\\tcl\\tk8.6"
+os.environ["TK_LIBRARY"]= "C:\\python3.6\\tcl\\tk8.6"
 
 if sys.platform=='win32':
     base = "Win32GUI"
